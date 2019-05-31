@@ -1,0 +1,7 @@
+tovarcart {width: 100px;
+    height: 100px;}
+prov {color: red; text-align: center; }
+table {text-align: center;  padding: 10px; }
+td {border: 2px solid black;}
+tr {border: 2px solid black;}
+td.invis {border: white}
