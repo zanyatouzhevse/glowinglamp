@@ -5,7 +5,7 @@
 <html>
 <head>
     <style>
-        body { background: url(images/locked.PNG); }
+         body { background: url(images/privet.jpg); }
     </style>
     <meta charset="utf-8" />
     </head>
@@ -33,7 +33,7 @@
     <br>
     <br>
         <input type="button"  value="Подтвердить" onclick="
-       if ((login=='student')&&(parol=='test')) {document.location.href = 'osnovnoe.jsp';} else {alert('ОШИЪКА!!!!');}" >
+       if ((login=='student')&&(parol=='test')) {document.location.href = 'osnovnoe.jsp';} else {alert('Вы ошиблись при вводе данных(');}" >
     </center>
 
 
