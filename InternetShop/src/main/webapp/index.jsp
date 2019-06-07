@@ -5,12 +5,12 @@
 <html>
 <head>
     <style>
-         body { background: url(images/privet.jpg); }
+         body { background: url(images/privet5.png); }
     </style>
     <meta charset="utf-8" />
     </head>
     <body >
-
+<form method="get" action="/auto">
     <br>
     <br>
     <br>
@@ -26,17 +26,17 @@
         <br>
 
 
-    <center> Логин:  <input  type="text" align="center" onchange="login =(this.value)"  >
+    <center> Логин:  <input  type="text" name="login" align="center" onchange="login =(this.value)"  >
     <br>
     <br>
-       Пароль: <input  type="password" onchange="parol =(this.value)"  >
+       Пароль: <input  type="password" name="parol" onchange="parol =(this.value)"  >
     <br>
     <br>
-        <input type="button"  value="Подтвердить" onclick="
-       if ((login=='student')&&(parol=='test')) {document.location.href = 'osnovnoe.jsp';} else {alert('Вы ошиблись при вводе данных(');}" >
+        <input type="submit"  value="Подтвердить">
+   <%--    if ((login=='student')&&(parol=='test')) {document.location.href = 'osnovnoe.jsp';} else {alert('Вы ошиблись при вводе данных(');}" > --%>
     </center>
 
 
-
+</form>
     </body>
 </html>

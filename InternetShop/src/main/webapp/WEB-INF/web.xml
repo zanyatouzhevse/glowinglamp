@@ -4,7 +4,14 @@
 		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <display-name>Archetype Created Web Application</display-name>
-
+    <servlet>
+        <servlet-name>auto</servlet-name>
+        <servlet-class>com.Shop.InternetShop.Auto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>auto</servlet-name>
+        <url-pattern>/auto</url-pattern>
+    </servlet-mapping>
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>com.Shop.InternetShop.HelloServlet</servlet-class>
@@ -13,5 +20,6 @@
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/first</url-pattern>
     </servlet-mapping>
+
 
 </web-app>
